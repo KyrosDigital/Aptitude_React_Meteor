@@ -9,6 +9,11 @@ Here is the official documentation for the test.
 - Node
 - NPM
 
+## Boot Up Instructions
+- Make sure your in the project directory.
+- Run this command to install dependancies: `meteor npm install --save`
+- Start the meteor app and mongo server with: `meteor --settings ./dev/settings.json`
+
 ## File/Folder Name Conventions
 - Front end: 
 	- Folder: `folder-name`
