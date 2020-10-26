@@ -1,0 +1,20 @@
+.UserSideNav {
+	width: 15%;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	padding: 50px 0px 0px 0px;
+	background-color: #2d2d2d;
+
+	a {
+		margin-left: 10px;
+		margin-bottom: 10px;
+	}
+
+	.hr {
+		width: 80%;
+		height: 1px;
+		background-color: aqua;
+		margin: 10px 0px 20px 0px;
+	}
+}

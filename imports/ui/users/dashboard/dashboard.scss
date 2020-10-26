@@ -1,0 +1,14 @@
+.UserDashboard {
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	
+	.UserDashboardMain {
+		width: 85%;
+
+		.UserDashboardMainPadding {
+			padding: 50px 50px;
+		}
+	}
+}

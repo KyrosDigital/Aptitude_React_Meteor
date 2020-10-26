@@ -1,0 +1,38 @@
+body, html {
+	margin: 0 0;
+	padding: 0 0;
+	font-family: sans-serif;
+}
+
+body {
+	overflow: hidden;
+}
+
+h1, h2, h3, h4, p {
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
+
+button:focus {outline:0;}
+
+a, .Link {
+  color:#0084ff;
+	text-decoration: none; /* no underline */
+	&:hover {
+		cursor: pointer;
+		color:#0066ff;
+	}
+}
+
+@import '../imports/styles/formElements';
+
+// Public styles
+@import '../imports/ui/login/login';
+
+// Users Styles - Dashboard
+@import '../imports/ui/users/dashboard/components/sideNav';
+@import '../imports/ui/users/dashboard/dashboard';
+
+
+// Users Styles - Conversations
+@import '../imports/ui/users/conversations/conversations';
