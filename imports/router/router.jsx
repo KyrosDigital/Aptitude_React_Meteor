@@ -8,6 +8,9 @@ import { App } from '../ui/app/app'
 // import login
 import { Login } from '../ui/login/login'
 
+// import signup
+import { SignupComponent } from '../ui/signup/signup'
+
 // import page not found
 import { PageNotFound } from '../ui/pageNotFound/pageNotFound'
 
@@ -31,6 +34,10 @@ export const MainRouter = () => {
 				<Switch>
 					<Route exact path='/'>
 						<Login />
+					</Route>
+
+					<Route exact path='/signup'>
+						<SignupComponent />
 					</Route>
 
 					{/* Users Screens */}

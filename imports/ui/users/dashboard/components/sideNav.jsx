@@ -8,9 +8,9 @@ export const UserSideNav = () => {
 	
 	return (
 		<div className="UserSideNav">
-    	<Link to='/dashboard/orders'>Messages</Link>
+    	<Link to='/dashboard/conversations'>Conversations</Link>
 			<div className="hr"></div>
-			<Link to='/dashboard/shipments'>Account</Link>
+			<Link to='#'>Account</Link>
 			<div className="hr"></div>
 			<Link to='#'>Logout</Link>
   	</div>

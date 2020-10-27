@@ -25,3 +25,4 @@ react-meteor-data       # React higher-order component for reactively tracking M
 fourseven:scss
 accounts-password
 alanning:roles
+tracker

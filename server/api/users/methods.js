@@ -38,4 +38,5 @@ Meteor.methods({
 		}
 
 		return run()
-	},
+	}
+})
